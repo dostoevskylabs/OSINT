@@ -115,4 +115,5 @@ Last known IP: 87.98.239.4 / Poland / OVH
   * Investigating this link we find a username `getronst`
     ![Recon_001](https://i.imgur.com/pzhVO9M.png)
     
-> Brickwall hit, need to do more recon, and perhaps take a really in-depth look at the httpd.pl file?
+> Thanks to a friend who is amazing with Malware reverse engineering [fs0c131y](https://twitter.com/fs0c131y) I was informed the malware sample is a sophisticated perl backdoor/spam daemon that builds its own ELF executables called mumblehard more on it here:
+*  https://www.welivesecurity.com/2015/04/29/unboxing-linuxmumblehard-muttering-spam-servers/
