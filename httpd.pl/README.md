@@ -21,7 +21,7 @@ Seems kind of strange to be on a website for a school, especially not being a un
 
 Within the unencrypted version found on this server we can see an E-Mail "ryglman@yahoo.com"
 
-Now some googling results in this information:
+Now some googling for various signatures identified results in this information:
 ```bash
 Emails found:
 ryglman@yahoo.com
