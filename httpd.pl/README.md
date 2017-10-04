@@ -9,11 +9,13 @@ An empty directory stored on a .ru domain already raises some red flags and it s
 http://www.mifi.ru/-strange-/awcrtxtu.cgi <--- russian
 
 Upon checking out the actual website we can see:
-```Дистанционные курсы для школьников 6-11 классов
-по математике, физике, химии, русскому языку```
+```bash
+Дистанционные курсы для школьников 6-11 классов
+по математике, физике, химии, русскому языку
+```
 
 Which translates to:
-```
+```bash
 Distance courses for schoolchildren of 6-11 grades on mathematics, physics, chemistry, Russian language
 ```
 Seems kind of strange to be on a website for a school, especially not being a university.
@@ -21,7 +23,7 @@ Seems kind of strange to be on a website for a school, especially not being a un
 Within the unencrypted version found on this server we can see an E-Mail "ryglman@yahoo.com"
 
 Plemininary google foo of this resulted in some hits:
-```
+```bash
 http://users.telenet.be/daveymonster/images/ae.php
 Jm73uZ
 #cb7c9f#
@@ -90,7 +92,7 @@ jkovdowqo
 Jm73uZ
 ryglman@yahoo.com
 ```
-```
+```bash
 External Servers Found (all dead now)
 http://mbcobretti.com/hydra.php
 http://94.244.80.14/users.txt
@@ -98,7 +100,7 @@ http://awrinc.net/style/images/go.php?sid=1
 http://srisaibalaji.com/aspnet_client/mypassword.php
 http://sadmeanother12.ru/img/header.php?ftd=4755726&path=%7calways11%7cothers%7c&sys=UN&wrk=22
 ```
-```
+```bash
 still the Jm73uZ keeps showing up in each of them even when everything else changes, could this be the name of the hacker?
 ```
 
