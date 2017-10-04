@@ -39,23 +39,24 @@ http://sadmeanother12.ru/img/header.php?ftd=4755726&path=%7calways11%7cothers%7c
 Last known IP: 87.98.239.4 / Poland / OVH
 ```
 1.  https://herdprotect.com/ip-address-87.98.239.4.aspx
+  > Some information on the OVH server, part of cluster003
 2.  https://cymon.io/87.98.239.4
   > Timeline shows there are 74 entries for this IP address.
-  ![Timeline 001](https://i.imgur.com/eyWrKvv.png)
+    ![Timeline 001](https://i.imgur.com/eyWrKvv.png)
   > 4 Months ago we can see our suspect mbcobretti.com identified
-  ![Timeline 002](https://i.imgur.com/6OA6YIb.png)
+    ![Timeline 002](https://i.imgur.com/6OA6YIb.png)
 3.  https://otx.alienvault.com/indicator/ip/87.98.239.4/
   > Now that we know this is definitely the staging server lets investigate
-  ![Domains](https://i.imgur.com/IE2TP0i.png)
+    ![Domains](https://i.imgur.com/IE2TP0i.png)
   > Let's look at some suspicious URLs reported
-  ![Suspicious_001](https://i.imgur.com/8psjn9f.png)
-  ![Suspicious_002](https://i.imgur.com/WEKP3nH.png)
+    ![Suspicious_001](https://i.imgur.com/8psjn9f.png)
+    ![Suspicious_002](https://i.imgur.com/WEKP3nH.png)
   > Now to identify specific files, here you can see some of the iframe's from the /samples/ folder
-  ![Samples_001](https://i.imgur.com/c15sXTW.png)
+    ![Samples_001](https://i.imgur.com/c15sXTW.png)
   > This looks interesting it's a tar.gz file
-  ![Samples_002](https://i.imgur.com/a7clATR.png)
+    ![Samples_002](https://i.imgur.com/a7clATR.png)
   > Investigating this link we find a username `getronst`
-  ![Recon_001](https://i.imgur.com/pzhVO9M.png)
+    ![Recon_001](https://i.imgur.com/pzhVO9M.png)
   
 Sources (I have made copies of this in the /samples/ directory):
 ```bash
