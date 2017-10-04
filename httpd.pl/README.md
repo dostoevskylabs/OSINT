@@ -6,17 +6,16 @@ first trace found in http://www.mifi.ru/-strange-/
 
 An empty directory stored on a .ru domain and it seems to be an unencrypted version of the httpd.pl found on the clients machine.
 
-http://www.mifi.ru/-strange-/awcrtxtu.cgi <--- russian
+> http://www.mifi.ru/-strange-/awcrtxtu.cgi <--- russian
 
 Upon checking out the actual website we can see:
 ```bash
 Дистанционные курсы для школьников 6-11 классов
 по математике, физике, химии, русскому языку
 ```
-
 Which translates to:
 ```bash
-Distance courses for schoolchildren of 6-11 grades on mathematics, physics, chemistry, Russian language
+Distance courses for schoolchildren of 6-11 grades on mathematics...Russian language
 ```
 Seems kind of strange to be on a website for a school, especially not being a university.
 
@@ -49,8 +48,23 @@ Last known IP: 87.98.239.4 / Poland / OVH
 ```
 1.  https://herdprotect.com/ip-address-87.98.239.4.aspx
 2.  https://cymon.io/87.98.239.4
+  > Timeline shows there are 74 entries for this IP address.
   ![Timeline 001](https://i.imgur.com/eyWrKvv.png)
+  > 4 Months ago we can see our suspect mbcobretti.com identified
+  ![Timeline 002](https://i.imgur.com/6OA6YIb.png)
 3.  https://otx.alienvault.com/indicator/ip/87.98.239.4/
+  > Now that we know this is definitely the staging server lets investigate
+  ![Domains](https://i.imgur.com/IE2TP0i.png)
+  > Let's look at some suspicious URLs reported
+  ![Suspicious_001](https://i.imgur.com/8psjn9f.png)
+  ![Suspicious_002](https://i.imgur.com/WEKP3nH.png)
+  > Now to identify specific files, here you can see some of the iframe's from the /samples/ folder
+  ![Samples_001](https://i.imgur.com/c15sXTW.png)
+  > This looks interesting it's a tar.gz file
+  ![Samples_002](https://i.imgur.com/a7clATR.png)
+  > Investigating this link we find a username `getronst`
+  ![Recon_001](https://i.imgur.com/pzhVO9M.png)
+  
 Sources (I have made copies of this in the /samples/ directory):
 ```bash
 http://users.telenet.be/daveymonster/images/ae.php
