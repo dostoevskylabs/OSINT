@@ -59,7 +59,7 @@ view-source:http://www.mujweb.cz/avon-lady/webiny/ <-- stuff hidden here
 ```
 http://www.iwantwireless.ca/simplecms/app/web/upload/tinymce-source/galer.php.accdb?filesrc=//tmp/httpd.pl&path=//tmp
 ```
-[Backdoor_001](https://i.imgur.com/0BKD9tU.png)
+![Backdoor_001](https://i.imgur.com/0BKD9tU.png)
 > E-Mail is the same on each sample regardless of language the comments for the malware are in
 ```bash
 ryglman@yahoo.com
