@@ -79,6 +79,7 @@ Last known IP: 87.98.239.4 / Poland / OVH
 3.  https://otx.alienvault.com/indicator/ip/87.98.239.4/
   * Now that we know this is definitely the staging server lets investigate
     ![Domains](https://i.imgur.com/IE2TP0i.png)
+    [associated_domains.txt](https://github.com/dostoevskylabs/OSINT/blob/master/httpd.pl/associated_domains.txt)
   * Let's look at some suspicious URLs reported
     ![Suspicious_001](https://i.imgur.com/8psjn9f.png)
     ![Suspicious_002](https://i.imgur.com/WEKP3nH.png)
