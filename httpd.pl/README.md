@@ -1,5 +1,8 @@
 I found this "httpd.pl" on a clients VPS located in their wp-content/plugins folder while working tech support at a data center. The untouched version is located in this repository as [httpd.pl](https://github.com/dostoevskylabs/OSINT/blob/master/httpd.pl/httpd.pl) -- I decided to start looking into what it did because 2,000 lines of perl is highly suspicious. The fact it also looks like a legitimate httpd and was running along-side apache was also pretty interesting.
 
+> People affected by this suspicious perl script
+*  https://www.google.com/search?q="httpd.pl"+backdoor
+
 First thing I did was google something I figured could be used as a signature: "Jm73uZ" from the httpd.pl file
 
 first trace found in http://www.mifi.ru/-strange-/
