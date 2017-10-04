@@ -1,10 +1,10 @@
-I found this "httpd.pl" on a clients VPS located in their wp-content/plugins folder while working tech support at a data center. I decided to start looking into what it did because 2,000 lines of perl is highly suspicious. The fact it also looks like a legitimate httpd and was running along-side apache was also pretty interesting.
+I found this "httpd.pl" on a clients VPS located in their wp-content/plugins folder while working tech support at a data center. The untouched version is located in this repository as httpd.pl -- I decided to start looking into what it did because 2,000 lines of perl is highly suspicious. The fact it also looks like a legitimate httpd and was running along-side apache was also pretty interesting.
 
 First thing I did was google something I figured could be used as a signature: "Jm73uZ" from the httpd.pl file
 
 first trace found in http://www.mifi.ru/-strange-/
 
-An empty directory stored on a .ru domain already raises some red flags and it seems to be an unencrypted version of the httpd.pl found on the clients machine.
+An empty directory stored on a .ru domain and it seems to be an unencrypted version of the httpd.pl found on the clients machine.
 
 http://www.mifi.ru/-strange-/awcrtxtu.cgi <--- russian
 
@@ -21,6 +21,8 @@ Distance courses for schoolchildren of 6-11 grades on mathematics, physics, chem
 Seems kind of strange to be on a website for a school, especially not being a university.
 
 Within the unencrypted version found on this server we can see an E-Mail "ryglman@yahoo.com"
+
+Now some googling results in this information:
 ```bash
 Signatures found:
 Jm73uZ
@@ -41,7 +43,7 @@ http://awrinc.net/style/images/go.php?sid=1
 http://srisaibalaji.com/aspnet_client/mypassword.php
 http://sadmeanother12.ru/img/header.php?ftd=4755726&path=%7calways11%7cothers%7c&sys=UN&wrk=22
 ```
-Plemininary google foo of this resulted in some hits:
+Sources (I have made copies of this in the /samples/ directory):
 ```bash
 http://users.telenet.be/daveymonster/images/ae.php
 http://centro-michels.org/paginas/_vti_cnf/mgvb2kbc.php?id=1032361
@@ -74,8 +76,5 @@ view-source:http://www.mujweb.cz/avon-lady/webiny/ <-- stuff hidden here
 http://usf.speleo.free.fr/drpdsn.cgi <-- Comments in French this time, still to the same email
 http://usf.speleo.free.fr/ <-- Some ISP in france?
 http://lespotagersnatures.free.fr/ilrm.php
-```
-```bash
-still the Jm73uZ keeps showing up in each of them even when everything else changes, could this be the name of the hacker?
 ```
 
