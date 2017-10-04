@@ -89,3 +89,5 @@ Last known IP: 87.98.239.4 / Poland / OVH
     ![Samples_002](https://i.imgur.com/a7clATR.png)
   * Investigating this link we find a username `getronst`
     ![Recon_001](https://i.imgur.com/pzhVO9M.png)
+    
+> Brickwall hit, need to do more recon, and perhaps take a realyl in-depth look at the httpd.pl file?
