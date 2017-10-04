@@ -23,14 +23,6 @@ Within the unencrypted version found on this server we can see an E-Mail "ryglma
 
 Now some googling results in this information:
 ```bash
-Signatures found:
-Jm73uZ
-jdeumog
-hgt5y54ytr
-jkovdowqo
-#cb7c9f#
-```
-```bash
 Emails found:
 ryglman@yahoo.com
 ```
