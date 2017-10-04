@@ -69,6 +69,12 @@ http://iccis.untar.ac.id/download/proceeding/default.php?path=//proc/self/root/s
 http://webcache.googleusercontent.com/search?q=cache:CjB5j6rwYogJ:www.iwantwireless.ca/simplecms/app/web/upload/tinymce-source/galer.php.accdb%3Ffilesrc%3D/home/sites/www.iwantwireless.ca/web/simplecms/app/web/upload/tinymce-source/back.pl%26path%3D/home/sites/www.iwantwireless.ca/web/simplecms/app/web/upload/tinymce-source+&cd=3&hl=en&ct=clnk&gl=us
 ```
 *  The last sample reveals a handle: ManSyk3z -- however we still dont' know if they are conected
+> ManSyk3z
+*  This handle may not be the author of the malware but in at least one instance it was used in conjunction with a reverse shell developed by them.
+```
+https://www.youtube.com/channel/UCL1blnQRv_Li5dUXkpaswBw
+https://www.facebook.com/mafias3c/
+```
 > E-Mail is the same on each sample regardless of language the comments for the malware are in
 ```bash
 ryglman@yahoo.com
