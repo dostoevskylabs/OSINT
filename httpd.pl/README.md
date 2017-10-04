@@ -20,7 +20,7 @@ Distance courses for schoolchildren of 6-11 grades on mathematics...Russian lang
 Seems kind of strange to be on a website for a school, especially not being a university.
 
 > Now some googling for various signatures identified found these samples (I have stored copies of them in /samples/):
-```bash
+```
 http://users.telenet.be/daveymonster/images/ae.php
 http://centro-michels.org/paginas/_vti_cnf/mgvb2kbc.php?id=1032361
 http://users.telenet.be/daveymonster/
@@ -35,7 +35,7 @@ http://mujweb.cz/zusm/gqcsimvu.php
 http://mujweb.cz/zusm/
 http://mujweb.cz/zusm/svatky.js
 http://mujweb.cz/zusm/index1styre.htm
-http://mujweb.cz/zusm/always11/  <-- the name always11 appears in the external servers above
+http://mujweb.cz/zusm/always11/  <-- the name "always11" appears in the external servers below
 http://mujweb.cz/zusm/always11/others/
 http://mujweb.cz/zusm/always11/others/cost94php
 http://mujweb.cz/zusm/always11/others/err404.php
