@@ -59,7 +59,7 @@ http://mujweb.cz/zusm/gqcsimvu.php
 http://mujweb.cz/zusm/
 http://mujweb.cz/zusm/svatky.js
 http://mujweb.cz/zusm/index1styre.htm
-http://mujweb.cz/zusm/always11/
+http://mujweb.cz/zusm/always11/  <-- the name always11 appears in the external servers above
 http://mujweb.cz/zusm/always11/others/
 http://mujweb.cz/zusm/always11/others/cost94php
 http://mujweb.cz/zusm/always11/others/err404.php
