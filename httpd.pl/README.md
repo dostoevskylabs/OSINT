@@ -39,7 +39,6 @@ http://mujweb.cz/zusm/always11/  <-- the name "always11" appears in the external
 http://mujweb.cz/zusm/always11/others/
 http://mujweb.cz/zusm/always11/others/cost94php
 http://mujweb.cz/zusm/always11/others/err404.php
-http://mbcobretti.com/hydra.php
 http://mujweb.cz/zusm/always11/squad/
 http://mujweb.cz/zusm/always11/squad/slowly/
 http://mujweb.cz/zusm/always11/squad/slowly/assistance.js
@@ -48,10 +47,11 @@ http://www.mujweb.cz/avon-lady/
 http://www.mujweb.cz/avon-lady/ok.html
 http://www.mujweb.cz/avon-lady/r.php
 http://www.mujweb.cz/avon-lady/v.php <-- again testing for code exec with <?php echo "Jm73uZ";?> 
-view-source:http://www.mujweb.cz/avon-lady/webiny/ <-- stuff hidden here
 http://usf.speleo.free.fr/drpdsn.cgi <-- Comments in French this time, still to the same email
 http://usf.speleo.free.fr/ <-- Some ISP in france?
 http://lespotagersnatures.free.fr/ilrm.php
+
+view-source:http://www.mujweb.cz/avon-lady/webiny/ <-- stuff hidden here
 ```
 > E-Mail is the same on each sample regardless of language the comments for the malware are in
 ```bash
