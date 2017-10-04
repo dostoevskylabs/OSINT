@@ -62,6 +62,11 @@ http://www.iwantwireless.ca/simplecms/app/web/upload/tinymce-source/galer.php.ac
 ![Backdoor_001](https://i.imgur.com/0BKD9tU.png)
 *  Seems to be in the wild a lot: https://www.google.com/search?q=et04+backdoor
 *  May not be directly related to the et04 backdoor, it's possible the cache example was just to stage httpd.pl
+*  Samples of Et04
+```
+http://www.yeos.com.sg/imagestore/userfiles/file/ScreenSavers/SM.phtml
+http://iccis.untar.ac.id/download/proceeding/default.php?path=//proc/self/root/sys/class/tty/tty54/subsystem/console/subsystem/tty17/subsystem/tty21/subsystem/tty10/subsystem/tty50/subsystem/tty9/subsystem/tty16/subsystem/tty55
+```
 > E-Mail is the same on each sample regardless of language the comments for the malware are in
 ```bash
 ryglman@yahoo.com
